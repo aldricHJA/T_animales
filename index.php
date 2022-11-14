@@ -32,7 +32,7 @@ $respuestas = mysqli_query($conexion, $sql);
             <td><?php echo $ver ['region'];?></td>
             <td><?php echo $ver ['comida'];?></td>
             <td>
-                <a href="" class="btn btn-primary">Editar</a>
+            <a href="./editar.php?idp=<?php echo $ver ['id']; ?> " class="btn btn-danger">Editar</a> 
             </td>
             <td>
             <a href="./backend/eliminar.php?idp=<?php echo $ver ['id']; ?> " class="btn btn-danger">Eliminar</a>
