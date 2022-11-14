@@ -21,7 +21,7 @@ $item = mysqli_fetch_array($respuestas);
   <div class="card-header">
   </div>
   <div class="card-body">
-    <center><h5 class="card-title">Actualizar</h5></center>
+    <center><h1 class="card-title"  style="font-family: 'Alex Brush', cursive;">Actualizar</h1></center>
     <form action="./backend/actualizar.php" method="post">
         <input type="text" name="id" value="<?php echo $id;?>" hidden>
         <label for="nombre">Nombre</label>
