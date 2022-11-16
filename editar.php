@@ -33,8 +33,8 @@ $item = mysqli_fetch_array($respuestas);
         <label for="comida">Comida</label>
         <input type="text" name="comida" id="comida" class="form-control" required value="<?php echo $item['comida']?>">
         <br>
-        <center>
-        <a href="#" class="btn btn-warning">Actualizar</a>
+        <centa>
+        <button class= "btn btn-warning">Agregar</button>
         <a href="./index.php" class="btn btn-primary">Regresar</a>
         </center>
     </form>
